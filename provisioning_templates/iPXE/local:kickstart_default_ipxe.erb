@@ -9,6 +9,7 @@ oses:
 %>
 
 
+
 <% subnet = @host.subnet -%>
 <% if subnet.respond_to?(:dhcp_boot_mode?) && subnet.dhcp_boot_mode? -%>
   <% static = '' -%>

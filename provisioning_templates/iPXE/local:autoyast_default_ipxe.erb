@@ -8,6 +8,7 @@ kind: iPXE
 
 
 
+
 <% boot_files_uris = @host.operatingsystem.boot_files_uri(@host.medium,@host.architecture) -%>
 <% kernel = boot_files_uris[0] -%>
 <% initrd = boot_files_uris[1] -%>
